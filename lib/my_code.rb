@@ -1,8 +1,5 @@
 # Your Code Here
 def negative(arr)
-  new_arr = []
-  arr.map do |ele|
-    new_arr << ele * -1
-  end
-  new_arr
+  arr.map do {|n| n * -1}
+
 end
