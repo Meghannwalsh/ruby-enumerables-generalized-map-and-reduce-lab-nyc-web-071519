@@ -1,7 +1,7 @@
 # Your Code Here
 def my_own_map(arr)
   new_arr = []
-  arr.each do |ele|
+  arr.map do |ele|
     new_arr << ele * -1
   end
   new_arr
