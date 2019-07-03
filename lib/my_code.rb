@@ -1,5 +1,5 @@
 # Your Code Here
-def negative(arr)
+def my_own_map(arr)
   new_arr
   arr.each do |num|
     new_arr << num * -1
