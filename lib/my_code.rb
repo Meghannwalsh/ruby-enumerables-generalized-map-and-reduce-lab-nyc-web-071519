@@ -1,7 +1,8 @@
 # Your Code Here
 def negative(arr)
+  new_arr
   arr.map do |num|
-    num *= -1
+    new_arr << num * -1
   end
-  arr
+  new_arr
 end
